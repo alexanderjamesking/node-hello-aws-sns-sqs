@@ -1,4 +1,4 @@
-# Node AWS SNS SQS Example using aws-sdk-js
+# Node.js SNS SQS example using aws-sdk-js
 
 Very basic Node.js example to publish to SNS topic and consume via SQS queue.
 
