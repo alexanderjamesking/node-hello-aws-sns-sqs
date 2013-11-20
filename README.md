@@ -15,19 +15,15 @@ Very basic Node.js example to publish to SNS topic and consume via SQS queue.
 1. Update credentials in config.json
 2. Update TopicArn in publishToSNSTopic.js
 3. Update QueueUrl in receiveMessageFromSQSQueue.js
-
 4. Install dependencies
 ```
 npm install
 ```
-
 5. Publish a message to the topic
 ```
 node publishToSNSTopic.js
 ```
-
 6. Check it appears in the list of messsages in SQS queue (AWS Admin Console)
-
 7. Receive the message then delete
 ```
 node receiveMessageFromSQSQueue.js
